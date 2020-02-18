@@ -1,8 +1,7 @@
 
-<!DOCTYPE html>
 <html>
 	<head>
-		<title>Stephanie Jurburg, microbial ecologist extraordinaire</title>
+		##Stephanie Jurburg, microbial ecologist extraordinaire
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
@@ -17,9 +16,9 @@
 		</nav>
 		<div class="container">
     		<div class="blurb">
-        		<h1>For an updated list of my publications, <li><a href="click here">https://scholar.google.com/citations?user=0bzB3KYAAAAJ&hl=en&oi=aohttps://scholar.google.com/citations?user=0bzB3KYAAAAJ&hl=en&oi=ao</a></li>
+        		<h1>For an updated list of my publications, <li><a href="https://scholar.google.com/citations?user=0bzB3KYAAAAJ&hl=en&oi=aohttps://scholar.google.com/citations?user=0bzB3KYAAAAJ&hl=en&oi=ao">click here</a></li>
 			</h1>
-				</a></p>
+				
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<footer>
