@@ -1,7 +1,7 @@
 
 <html>
 	<head>
-		##Stephanie Jurburg, microbial ecologist extraordinaire
+		<title>Stephanie Jurburg, microbial ecologist extraordinaire</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
