@@ -1,4 +1,4 @@
-title: Stephanie Jurburg, Microbial Ecologist
+## Stephanie Jurburg, Microbial Ecologist
 ---
 <div class="blurb">
 	<h1>Welcome to my online presence!</h1>
