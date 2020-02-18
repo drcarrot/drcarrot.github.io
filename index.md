@@ -12,13 +12,13 @@
         		<li><a href="/">Home</a></li>
 	        	<li><a href="/about">About</a></li>
         		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
+        	
     		</ul>
 		</nav>
 		<div class="container">
     		<div class="blurb">
-        		<h1>For an updated list of my publications, [click here](https://scholar.google.com/citations?user=0bzB3KYAAAAJ&hl=en&oi=ao).
-</h1>
+        		<h1>For an updated list of my publications, <li><a href="click here">https://scholar.google.com/citations?user=0bzB3KYAAAAJ&hl=en&oi=aohttps://scholar.google.com/citations?user=0bzB3KYAAAAJ&hl=en&oi=ao</a></li>
+			</h1>
 				</a></p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
