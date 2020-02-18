@@ -1,2 +1,4 @@
 remote_theme: daviddarnes/alembic 
 title: Welcome to Stephanie Jurburg's academic webpage!
+
+theme: jekyll-theme-minimal
