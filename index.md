@@ -1,4 +1,3 @@
-layout: default
 title: Stephanie Jurburg, Microbial Ecologist
 ---
 <div class="blurb">
