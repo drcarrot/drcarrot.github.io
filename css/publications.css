@@ -1,0 +1,46 @@
+html, body, div#page-wrapper {
+    height: auto;
+}    
+
+h1 {
+    background-color: rgba(52, 27, 43, 0.5);
+    width: 50%;
+    margin: 3% auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px 0 0 0;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(52, 27, 43);
+}
+
+li div {
+    display: inline-block;
+}
+
+ul li div:nth-child(1) {
+    width: 5%;
+    text-align: center;
+    padding: 5px 20px 0 0;
+    vertical-align: top;
+}
+
+ul li div:nth-child(2) {
+    width: 75%;
+    text-align: justify;
+    padding: 5px;
+}
+
+li div a, li div a:hover {
+    display: block;
+    width: max-content;
+    text-align: left;
+    border: none;
+    padding: 2px;    
+}
+
+main {
+    padding-bottom: 4%;
+}
