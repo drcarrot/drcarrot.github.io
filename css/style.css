@@ -10,7 +10,7 @@ body {
     color: white;
     margin: 0%;
     font-family: 'Lato', sans-serif;
-    background-image: url(../images/background.jpg);
+    background-image: url(https://raw.githubusercontent.com/drcarrot/drcarrot.github.io/master/images/background.jpg);
     background-size: 100%;
     text-align: center;
     overflow-y:scroll;
