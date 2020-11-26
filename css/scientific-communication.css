@@ -1,0 +1,51 @@
+html, body, div#page-wrapper {
+    height: auto;
+}  
+
+h1 {
+    background-color: rgba(52, 27, 43, 0.5);
+    width: 50%;
+    margin: 3% auto;
+    padding: 0.5%;
+}
+@media only screen and (max-width: 768px) { h1 {
+    width: 80%;
+}}
+
+div#banner {
+    width: 75%;
+    text-transform: none;
+    letter-spacing: normal;
+    background-color: rgba(52, 27, 43);
+    padding: 10px;
+    max-width: 750px;
+}
+@media only screen and (max-width: 768px) { div#banner {
+    width: 95%;
+}}
+
+main {
+    padding-bottom: 4%;
+}
+
+iframe#sixty {
+    position: relative; 
+    width: 100%;
+    height: calc(75vw * 0.562); 
+}
+
+p {
+    text-indent: 20px;
+    width: 100%;
+    padding: 2% 0%;
+    text-align: justify;
+    font-weight: normal;
+}
+
+a.sComm, a.sComm:hover {
+    font-size: larger;
+    text-align: center;
+    border: none;
+    margin: 3px 20px 0 20px;
+    padding: 3px; 
+}
