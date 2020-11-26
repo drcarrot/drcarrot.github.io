@@ -12,6 +12,9 @@ h1 {
     margin: 3% auto;
     padding: 0.5%;
 }
+@media only screen and (max-width: 768px) { h1 {
+    margin: 40px auto;
+}}
 
 ul {
     list-style-type: none;
@@ -61,8 +64,8 @@ main {
 
     a.icon {
         position: absolute;
-        right: 10px;
-        top: 4.367px;
+        right: 20px;
+        top: 12px;
     }
 
     .nav {
