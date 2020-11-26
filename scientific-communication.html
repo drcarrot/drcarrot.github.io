@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/publications.css">
+    <link rel="stylesheet" href="./css/scientific-communication.css">
+    <title>Scientific Communication</title>
+</head>
+<body>
+    <div id="page-wrapper">
+        <header>
+            <nav>
+                <ul id="topnav">
+                    <li><a href="index.html">Dr. Stephanie D. Jurburg</a></li>
+                    <li><a href="https://www.idiv.de/en/groups_and_people/employees/details/981.html" target="_blank">Research</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="https://github.com/drcarrot" target="_blank">Code</a></li>
+                    <li id="activePage">Scientific Communication</li>
+                    <li><a href="mailto:s.d.jurburg@gmail.com">s.d.jurburg@gmail.com</a></li>
+                </ul>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks" class="hamburgerMenu">
+                    <a href="https://www.idiv.de/en/groups_and_people/employees/details/981.html"
+                    target="_blank">Research</a>
+                    <a href="publications.html">Publications</a>
+                    <a href="https://github.com/drcarrot" target="_blank">Code</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+        </header>
+        <main>
+            <h1>Scientific Communication</h1>
+            <div id="banner">
+                <h2>Research in 60 seconds: Soil Bacteria and their Resilience</h2>
+                <iframe id="sixty" src="https://www.youtube.com/embed/_dq8UA9JmA4?feature=youtu.be&wmode=opaque&enablejsapi=1" scrolling="no" frameborder="0"></iframe>
+                <p>Billions of bacteria cover nearly every surface and compartment in our planet, and form specific communities in each environment they inhabit. Bacterial communities are an integral part of all ecosystems, aiding in nutrient cycling in the soil, to digestion in our guts. My research focuses on understanding how interactions between these bacteria shape the communities over time, and to understand how bacteria recover from disturbances - not as individuals, but as a communal unit.</p>
+                <div>
+                    <a href="https://kids.frontiersin.org/article/10.3389/frym.2020.545905" target="_blank" class="sComm"><span class="bold">November 2020: </span>Bacteria in Soil Keep Your Hamburger “Healthy”. <span class="italic">Frontiers for Young Minds.</span></a>
+                </div>
+                <div>
+                    <a href="https://naturemicrobiologycommunity.nature.com/posts/where-do-the-data-go-when-nobody-is-looking" target="_blank" class="sComm"><span class="bold">August 2020: </span> Where do the data go when nobody is looking? <span class="italic">Nature Microbiology Community</span></a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+</html>
