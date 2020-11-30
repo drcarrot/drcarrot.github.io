@@ -40,3 +40,20 @@ li div a, li div a:hover {
     border: none;
     padding: 2px;    
 }
+
+@media only screen and (max-width: 768px) {
+    ul {
+        width: 100%;
+        padding-bottom: 4%;
+    }
+
+    ul li div:nth-child(1) {
+        width: 100%;
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    ul li div:nth-child(2) {
+        width: 85%;
+    }
+}

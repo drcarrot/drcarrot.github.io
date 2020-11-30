@@ -164,21 +164,6 @@ span.italic {
         border: none;
     }
 
-    ul {
-        width: 100%;
-        padding-bottom: 4%;
-    }
-
-    ul li div:nth-child(1) {
-        width: 100%;
-        font-size: larger;
-        font-weight: bold;
-    }
-    
-    ul li div:nth-child(2) {
-        width: 85%;
-    }
-
     main {
         padding-bottom: 0;
     }
