@@ -1,10 +1,3 @@
-html, body, div#page-wrapper {
-    height: 100%;
-}
-@media only screen and (max-width: 768px) { html, body, div#page-wrapper {
-    height: 101vh;
-}} 
-
 h1 {
     background-color: rgba(52, 27, 43, 0);
     border-top: 5px white double;
