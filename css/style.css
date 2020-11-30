@@ -1,13 +1,14 @@
 * {
     box-sizing: border-box;
 }
- 
+
 html, body, div#page-wrapper {
-    height: 100%;
+    height: auto;
+}    
+
+*.hamburgerMenu, a.icon {
+    display: none;
 }
-@media only screen and (max-width: 768px) { html, body, div#page-wrapper {
-    height: 101vh;
-}} 
 
 body {
     color: white;
@@ -46,21 +47,11 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.3);
     transition: background-color 0.3s;
 }
-
-a.largeBox {
-    display: block;
-    width: auto;
-    border: white 2px solid;
-    padding: 8px 25px;
-    margin: 12px 125px;
-}
-@media only screen and (max-width: 768px) { a.largeBox {
-    margin: 12px 10%;
-}}
-    
-a.largeBox:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-}
+@media only screen and (max-width: 768px) { a:hover {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+}} 
 
 header {
     display: block;
@@ -95,17 +86,20 @@ div#banner {
     text-transform: uppercase;
     letter-spacing: 0.3ex;
 }
-
 @media only screen and (max-width: 768px) { div#banner {
     margin-top: 15%;
     width: 95%;
 }}
 
-.underUpperscore {
-    border-top: 5px white double;
-    border-bottom: 5px white double;
-    font-size: larger;
+h1 {
+    background-color: rgba(52, 27, 43, 0.5);
+    width: 50%;
+    margin: 3% auto;
+    padding: 0.5%;
 }
+@media only screen and (max-width: 768px) { h1 {
+    margin: 40px auto;
+}}
 
 section#main {
     margin-top: 22%;
@@ -130,10 +124,8 @@ p {
     padding: 2% 10%;
 }}    
 
-hr {
-    size: 3px;
-    color: rgba(0, 0, 0, 0.6);
-    width: 90%;
+main {
+    padding-bottom: 4%;
 }
 
 span.bold {
@@ -142,4 +134,55 @@ span.bold {
 
 span.italic {
     font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+    nav ul#topnav li:nth-child(2), nav ul#topnav li:nth-child(3), nav ul#topnav li:nth-child(4), nav ul#topnav li:nth-child(5), nav ul#topnav li:nth-child(6) {
+        display: none;
+    }
+
+    *.hamburgerMenu, a.icon {
+        display: block;
+    }
+
+    a.icon {
+        position: absolute;
+        right: 20px;
+        top: 12px;
+    }
+
+    .nav {
+        overflow: hidden;
+        position: relative;
+    }
+
+    #myLinks {
+        display: none;
+    }
+
+    ul {
+        width: 100%;
+        padding-bottom: 4%;
+    }
+
+    ul li div:nth-child(1) {
+        width: 100%;
+        font-size: larger;
+        font-weight: bold;
+    }
+    
+    ul li div:nth-child(2) {
+        width: 85%;
+    }
+
+    main {
+        padding-bottom: 0;
+    }
+
+    div.hamburgerMenu a {
+        padding: 5px 14.367px 10px;
+        display: block;
+        text-align: left;
+        background-color: rgb(52, 27, 43, 0.5);
+    }
 }
