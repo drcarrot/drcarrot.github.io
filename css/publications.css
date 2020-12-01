@@ -22,8 +22,8 @@ li div {
 
 ul li div:nth-child(1) {
     width: 5%;
-    text-align: center;
-    padding: 5px 20px 0 0;
+    font-size: larger;
+    padding: 5px 55px 0 0;
     vertical-align: top;
 }
 
