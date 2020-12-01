@@ -21,6 +21,7 @@ body {
     overflow-y:scroll;
 }
 
+/* Adjust the color of bg Picture */
 div#page-wrapper {
     width: 100%;
     background-color: rgba(255, 180, 245, 0.15);
@@ -136,6 +137,7 @@ span.italic {
     font-style: italic;
 }
 
+/* Hamburger menu for mobile */
 @media only screen and (max-width: 768px) {
     nav ul#topnav li:nth-child(2), nav ul#topnav li:nth-child(3), nav ul#topnav li:nth-child(4), nav ul#topnav li:nth-child(5), nav ul#topnav li:nth-child(6) {
         display: none;
