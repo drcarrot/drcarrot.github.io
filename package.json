@@ -7,7 +7,7 @@
     "build": "ng build --base-href https://drcarrot.github.io/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "npx angular-cli-ghpages --dir=dist/angular"
+    "deploy": "npx angular-cli-ghpages --dir=dist/dr-carrot"
   },
   "private": true,
   "dependencies": {
