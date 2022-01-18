@@ -1,0 +1,39 @@
+<header>
+  <nav *ngIf="router.url === '/home'">
+    <ul id="topnav">
+      <li><a routerLink="/home" routerLinkActive="active">Dr. Stephanie D. Jurburg</a></li>
+      <li><a href="mailto:s.d.jurburg@gmail.com">s.d.jurburg@gmail.com</a></li>
+    </ul>
+  </nav>
+  <nav *ngIf="router.url !== '/home'">
+    <ul id="topnav">
+        <li><a routerLink="/home" routerLinkActive="active">Dr. Stephanie D. Jurburg</a></li>
+        <li><a routerLink="/sciComm" routerLinkActive="active">Scientific Communication</a></li>
+        <li><a routerLink="/publications" routerLinkActive="active">Publications</a></li>
+        <li>
+          <a href="https://www.idiv.de/en/groups_and_people/employees/details/981.html" target="_blank">
+              Research <fa-icon [icon]="faExternalLinkAlt"></fa-icon>
+          </a>
+        </li>
+        <li><a href="https://github.com/drcarrot" target="_blank">
+          Code <fa-icon [icon]="faExternalLinkAlt"></fa-icon>
+        </a></li>
+        <li><a href="mailto:s.d.jurburg@gmail.com">s.d.jurburg@gmail.com</a></li>
+    </ul>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks" class="hamburgerMenu">
+        <a href="https://www.idiv.de/en/groups_and_people/employees/details/981.html"
+        target="_blank">Research</a>
+        <a href="https://github.com/drcarrot" target="_blank">Code</a>
+        <a href="scientific-communication.html">Scientific Communication</a>
+        <a href="mailto:s.d.jurburg@gmail.com">s.d.jurburg@gmail.com</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
