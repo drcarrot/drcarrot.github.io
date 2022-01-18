@@ -8,7 +8,7 @@ html, body, div#page-wrapper {
     min-height: 100vh;
 }    
 
-*.hamburgerMenu, a.icon {
+*.hamburgerMenu, button.icon {
     display: none;
 }
 
@@ -65,15 +65,15 @@ ul#topnav {
     background-color: rgba(52, 27, 43, 0.5);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     margin: 0;
     padding: 10px;
-}
-
-ul#topnav li {
-    display: inline;
-    flex: 0 1 auto;
-    list-style-type: none;
+    li {
+        display: inline;
+        flex: 0 1 auto;
+        list-style-type: none;
+    }
 }
 
 div#banner {
@@ -139,16 +139,16 @@ span.italic {
 }
 
 /* Hamburger menu for mobile */
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     nav ul#topnav li:nth-child(2), nav ul#topnav li:nth-child(3), nav ul#topnav li:nth-child(4), nav ul#topnav li:nth-child(5), nav ul#topnav li:nth-child(6) {
         display: none;
     }
 
-    *.hamburgerMenu, a.icon {
+    *.hamburgerMenu, button.icon {
         display: block;
     }
 
-    a.icon {
+    button.icon {
         position: absolute;
         right: 20px;
         top: 12px;
@@ -161,21 +161,29 @@ span.italic {
 
     #myLinks {
         display: none;
-    }
-
-    #myLinks a:hover {
-        border: none;
+        a:hover {
+            border: none;
+        }
+        a.active:hover {
+            border: 2px transparent;
+        }
     }
 
     main {
         padding-bottom: 0;
     }
 
-    div.hamburgerMenu a {
-        padding: 5px 14.367px 10px;
-        display: block;
-        text-align: left;
-        background-color: rgb(52, 27, 43, 0.5);
+    div.hamburgerMenu {
+        a {
+            padding: 5px 14.367px 10px;
+            display: block;
+            text-align: left;
+            background-color: rgb(52, 27, 43, 0.5);
+        }
+        a.active {
+            font-weight: bolder;
+            border: 2px transparent;
+        }
     }
 }
 // index.css
@@ -211,7 +219,7 @@ a.largeBox {
     a.largeBox {
         margin: 12px 10%;
     }
-    nav ul#topnav li:nth-child(2) {
+    nav ul#topnav li.alwaysShow {
         display: block;
     }
 }

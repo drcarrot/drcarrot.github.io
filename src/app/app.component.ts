@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faExternalLinkAlt, faBars } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +11,15 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 export class AppComponent {
   title = 'drCarrot';
   faExternalLinkAlt = faExternalLinkAlt;
+  faBars = faBars;
   constructor(public router: Router) {}
   
+  showLinks() {
+    let x: any = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
 }
