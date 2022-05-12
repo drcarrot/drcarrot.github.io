@@ -80,7 +80,8 @@ div#banner {
     padding: 2%;
     padding-bottom: 4%;
     background-color: rgba(52, 27, 43, 0.5);
-    width: 50%;
+    width: 75%;
+    max-width: 370px;
     margin: auto;
     margin-top: 5%;
     text-transform: uppercase;
@@ -95,7 +96,7 @@ div#banner {
 
 h1 {
     background-color: rgba(52, 27, 43, 0.5);
-    width: 50%;
+    width: 70%;
     margin: 3% auto;
     padding: 0.5%;
 }
@@ -118,7 +119,7 @@ h2 {
 }
 
 p {
-    padding: 2% 25%;
+    padding: 2% 28px;
     font-size: larger;
     font-weight: 600;
 }
@@ -212,7 +213,7 @@ a.largeBox {
     width: auto;
     border: white 2px solid;
     padding: 8px 3px;
-    margin: 12px 17%;
+    margin: 12px 20px;
     border-radius: 5px;
 }
 @media (max-width: 768px) { 

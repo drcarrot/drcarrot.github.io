@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { ScientificCommunicationComponent } from './scientific-communication/scientific-communication.component';
 import { HomeComponent } from './home/home.component';
+import { HttpClientModule }    from '@angular/common/http';
+import { GetPubsService } from './get-pubs.service';
+
 
 @NgModule({
   declarations: [
@@ -18,9 +21,10 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [GetPubsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
