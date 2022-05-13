@@ -1,45 +1,47 @@
-<header>
-  <nav *ngIf="router.url === '/home'">
-    <ul id="topnav">
-      <li><a routerLink="/home" routerLinkActive="active">Dr. Stephanie D. Jurburg</a></li>
-      <li class="alwaysShow"><a href="mailto:s.d.jurburg@gmail.com">s.d.jurburg@gmail.com</a></li>
-    </ul>
-  </nav>
-  <nav *ngIf="router.url !== '/home'">
-    <ul id="topnav">
+<div [ngClass]="loading ? 'loading-body' : 'loaded-body'">
+  <header>
+    <nav *ngIf="router.url === '/home'">
+      <ul id="topnav">
         <li><a routerLink="/home" routerLinkActive="active">Dr. Stephanie D. Jurburg</a></li>
-        <li><a routerLink="/sciComm" routerLinkActive="active">Scientific<br>Communication</a></li>
-        <li><a routerLink="/publications" routerLinkActive="active">Publications</a></li>
-        <li>
-          <a href="https://www.idiv.de/en/groups_and_people/employees/details/981.html" target="_blank">
-              Research <fa-icon [icon]="faExternalLinkAlt"></fa-icon>
-          </a>
-        </li>
-        <li><a href="https://github.com/drcarrot" target="_blank">
+        <li class="alwaysShow"><a href="mailto:s.d.jurburg@gmail.com">s.d.jurburg@gmail.com</a></li>
+      </ul>
+    </nav>
+    <nav *ngIf="router.url !== '/home'">
+      <ul id="topnav">
+          <li><a routerLink="/home" routerLinkActive="active">Dr. Stephanie D. Jurburg</a></li>
+          <li><a routerLink="/sciComm" routerLinkActive="active">Scientific<br>Communication</a></li>
+          <li><a routerLink="/publications" routerLinkActive="active">Publications</a></li>
+          <li>
+            <a href="https://www.idiv.de/en/groups_and_people/employees/details/981.html" target="_blank">
+                Research <fa-icon [icon]="faExternalLinkAlt"></fa-icon>
+            </a>
+          </li>
+          <li><a href="https://github.com/drcarrot" target="_blank">
+            Code <fa-icon [icon]="faExternalLinkAlt"></fa-icon>
+          </a></li>
+          <li><a href="mailto:s.d.jurburg@gmail.com">s.d.jurburg@gmail.com</a></li>
+      </ul>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks" class="hamburgerMenu">
+        <a routerLink="/sciComm" routerLinkActive="active">Scientific Communication</a>
+        <a routerLink="/publications" routerLinkActive="active">Publications</a>
+        <a 
+          href="https://www.idiv.de/en/groups_and_people/employees/details/981.html" target="_blank"
+        >
+          Research <fa-icon [icon]="faExternalLinkAlt"></fa-icon>
+        </a>
+        <a href="https://github.com/drcarrot" target="_blank">
           Code <fa-icon [icon]="faExternalLinkAlt"></fa-icon>
-        </a></li>
-        <li><a href="mailto:s.d.jurburg@gmail.com">s.d.jurburg@gmail.com</a></li>
-    </ul>
-    <!-- Navigation links (hidden by default) -->
-    <div id="myLinks" class="hamburgerMenu">
-      <a routerLink="/sciComm" routerLinkActive="active">Scientific Communication</a>
-      <a routerLink="/publications" routerLinkActive="active">Publications</a>
-      <a 
-        href="https://www.idiv.de/en/groups_and_people/employees/details/981.html" target="_blank"
-      >
-        Research <fa-icon [icon]="faExternalLinkAlt"></fa-icon>
-      </a>
-      <a href="https://github.com/drcarrot" target="_blank">
-        Code <fa-icon [icon]="faExternalLinkAlt"></fa-icon>
-      </a>
-      <a href="mailto:s.d.jurburg@gmail.com">s.d.jurburg@gmail.com</a>
-    </div>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <button class="icon" (click)="showLinks()">
-      <fa-icon [icon]="faBars"></fa-icon>
-    </button>
-  </nav>
-</header>
-<main>
-  <router-outlet></router-outlet>
-</main>
+        </a>
+        <a href="mailto:s.d.jurburg@gmail.com">s.d.jurburg@gmail.com</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <button class="icon" (click)="showLinks()">
+        <fa-icon [icon]="faBars"></fa-icon>
+      </button>
+    </nav>
+  </header>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+</div>

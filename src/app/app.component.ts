@@ -12,8 +12,14 @@ export class AppComponent {
   title = 'drCarrot';
   faExternalLinkAlt = faExternalLinkAlt;
   faBars = faBars;
+  loading = true;
   constructor(public router: Router) {}
   
+  ngOnInit(): void {
+    setTimeout(() => {
+      this.loading = false
+    }, 4000);
+  }
   showLinks() {
     let x: any = document.getElementById("myLinks");
     if (x.style.display === "block") {

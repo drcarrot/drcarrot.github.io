@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-html, body, div#page-wrapper {
+html, body, div#page-wrapper, div.loading-body {
     height: auto;
     min-height: 100vh;
 }    
@@ -16,11 +16,17 @@ body {
     color: white;
     margin: 0%;
     font-family: 'Lato', sans-serif;
-    background-image: url(./assets/img/backgroundSm.png);
+    background-image: url(./assets/img/backgroundLg.png);
     background-size: 100%;
     text-align: center;
     overflow-y:scroll;
 }
+
+div.loading-body {
+    background-image: url(./assets/img/backgroundSm.png);
+    background-size: 100%;
+}
+
 
 #activePage {
     padding: 4.367px;
