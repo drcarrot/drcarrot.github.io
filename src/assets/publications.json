@@ -1,45 +1,136 @@
 [
     {
+        "year": 2024,
+        "authors": "Nieto EE, Jurburg SD, ..., Chatzinotas A",
+        "title": "DNA stable isotope probing reveals the impact of trophic interactions on bioaugmentation of soils with different pollution histories",
+        "journal": "Microbiome Journal",
+        "doi": "10.1186/s40168-024-01865-2"
+    },
+    {
+        "year": 2024,
+        "authors": "Cerecetto V, Leoni C, Jurburg SD, Kampouris ID, Smalla K",
+        "title": "Pasture-crop rotations modulate the soil and rhizosphere microbiota and preserve soil structure supporting oat cultivation in the Pampa biome",
+        "journal": "Soil Biology and Biochemistry",
+        "doi": "10.1016/j.soilbio.2024.109451"
+    },
+    {
+        "year": 2024,
+        "authors": "Jurburg SD, Blowes S, Shade A, Eisenhauer N, Chase J",
+        "title": "Disturbance and recovery: microbial community assembly following disturbance across environments",
+        "journal": "Microbiome Journal",
+        "doi": "10.22541/au.163818947.78737764/v1"
+    },
+    {
+        "year": 2024,
+        "authors": "Khan MJ, ..., Jurburg SD, ..., He JZ",
+        "title": "Microwave Heat Disturbance Alters Soil Microbial Communities from Three Australian Agricultural Lands",
+        "journal": "Applied Soil Ecology",
+        "doi": "10.2139/ssrn.4333636"
+    },
+    {
+        "year": 2024,
+        "authors": "Jurburg SD, Alvarez-Blanco MJ, and the Datathon 2022 Consortium",
+        "title": "Datathons: fostering equitability in data reuse in ecology",
+        "journal": "Trends in Microbiology",
+        "doi": "10.32942/X2389Q"
+    },
+    {
+        "year": 2023,
+        "authors": "Avila Santos AP, ..., Jurburg SD, ..., Rocha U",
+        "title": "The AnimalAssociatedMetagenomeDB reveals a bias towards livestock and developed countries and blind spots in functional-potential studies of animal-associated microbiomes",
+        "journal": "Animal Microbiome Journal",
+        "doi": "10.1186/s42523-023-00267-3"
+    },
+    {
+        "year": 2023,
+        "authors": "Eisenhauer N, ..., Jurburg SD, ..",
+        "title": "The Heterogeneity-Diversity-Performance Nexus",
+        "journal": "National Science Review",
+        "doi": "10.1093/nsr/nwad109"
+    },
+    {
+        "year": 2023,
+        "authors": "Reuben RC, Beugnon R, Jurburg SD",
+        "title": "COVID-19 alters human microbiomes: a meta analysis",
+        "journal": "Frontiers in Infection and Cellular Microbiology",
+        "doi": "10.3389/fcimb.2023.1211348"
+    },
+    {
+        "year": 2023,
+        "authors": "Garbowski M, ..., Jurburg SD, ..., Harpole W",
+        "title": "Nutrient enrichment alters seasonal beta-diversity in global grasslands",
+        "journal": "Journal of Ecology",
+        "doi": "10.1111/1365-2745.14182"
+    },
+    {
+        "year": 2023,
+        "authors": "Jurburg SD, Hom E, Chatzinotas A",
+        "title": "Beyond pathogenesis: detecting the full spectrum of ecological interactions in the virosphere",
+        "journal": "PLoS Biology",
+        "doi": "10.1371/journal.pbio.3002109"
+    },
+    {
+        "year": 2023,
+        "authors": "Reuben RC, Langer D, Eisenhauer N, Jurburg SD",
+        "title": "Universal drivers of cheese microbiomes",
+        "journal": "iScience",
+        "doi": "10.1016/j.isci.2022.105744"
+    },
+    {
+        "year": 2022,
+        "authors": "Jurburg SD, ..",
+        "title": "The community ecology perspective of omics data",
+        "journal": "Microbiome Journal",
+        "doi": "10.1186/s40168-022-01423-8"
+    },
+    {
+        "year": 2022,
+        "authors": "Jurburg SD",
+        "title": "Bacteria in Soil Keep Your Hamburger “Healthy”",
+        "journal": "Frontiers for Young Minds",
+        "doi": "10.3389/frym.2020.545905"
+    },
+    {
+        "year": 2022,
+        "authors": "Spake R, Barajas-Barbosa MP, ..., Jurburg SD, ..., Chase JM",
+        "title": "Detecting Thresholds of Ecological Change in the Anthropocene",
+        "journal": "Annual Review of Environment and Resources",
+        "doi": "10.1146/annurev-environ-112420-015910"
+    },
+    {
+        "year": 2022,
+        "authors": "Cardenas-Rey I, Gonzalez TB, ..., Jurburg SD, ..",
+        "title": "Succession in the Caecal Microbiota of Developing Broilers Colonised by Extended-spectrum β-lactamase-producing Escherichia Coli",
+        "journal": "Animal Microbiome",
+        "doi": "10.1186/s42523-022-00199-4"
+    },
+    {
+        "year": 2022,
+        "authors": "Jurburg SD, Eisenhauer N, Buscot F, Chatzinotas A, ..., Singh BK",
+        "title": "Potential of microbiome-based solutions for agrifood systems",
+        "journal": "Nature Food",
+        "doi": "10.1038/s43016-022-00576-x"
+    },
+    {
         "year": 2021,
-        "authors": "S Jurburg, S Blowes, A Shade, N Eisenhauer, J Chase",
+        "authors": "Jurburg SD, Blowes S, Shade A, Eisenhauer N, Chase J",
         "title": "Disturbance and recovery: a synthesis of microbial community reassembly following disturbance across realms",
         "journal": "Authorea Preprints",
         "doi": "10.22541/au.163818947.78737764/v1"
     },
     {
         "year": 2021,
-        "authors": "I Cardenas-Rey, TB Gonzalez, ..., SD Jurburg, ..",
-        "title": "Succession in the Caecal Microbiota of Developing Broilers Colonised by Extended-spectrum β-lactamase-producing Escherichia Coli",
-        "journal": "Basic and applied ecology",
-        "doi": "10.21203/rs.3.rs-929974/v1"
-    },
-    {
-        "year": 2021,
         "title": "Nutrient status not secondary metabolites drives herbivory and pathogen infestation across differently mycorrhized tree monocultures and mixtures",
-        "authors": "O Ferlian, EM Lintzel, SD Jurburg, ..",
+        "authors": "Ferlian O, Lintzel EM, Jurburg SD, ..",
         "journal": "Basic and applied ecology",
         "doi": "10.1016/j.baae.2020.09.009"
     },
     {
         "year": 2021,
-        "authors": "R Beugnon, J Du, S Cesarz, SD Jurburg, ..",
+        "authors": "Beugnon R, Du J, Cesarz S, Jurburg SD, ..",
         "title": "Tree diversity and soil chemical properties drive the linkages between soil microbial community and ecosystem functioning",
         "journal": "ISME Communications",
         "doi": "10.1038/s43705-021-00040-0"
-    },
-    {
-        "year": 2021,
-        "authors": "J Schreuder, FC Velkers, A Bossers, RJ Bouwstra, WF De Boer, P Van Hooft, JA Stegeman, SD Jurburg",
-        "title": "Temporal dynamics of cloacal microbiota in adult laying chickens with and without access to an outdoor range",
-        "journal": "Frontiers in Microbiology",
-        "doi": "10.3389/fmicb.2020.626713"
-    },
-    {
-        "year": 2021,
-        "authors": "N Eisenhauer, F Buscot, A Heintz-Buschart, SD Jurburg, ..",
-        "title": "The multidimensionality of soil macroecology",
-        "journal": "Global Ecology and Biogeography",
-        "doi": "10.1111/geb.13211"
     },
     {
         "year": 2021,
@@ -56,10 +147,24 @@
         "doi": "10.3389/fmicb.2021.564408"
     },
     {
+        "year": 2021,
+        "authors": "Schreuder J, Velkers FC, ..., Jurburg SD",
+        "title": "Temporal dynamics of cloacal microbiota in adult laying chickens with and without access to an outdoor range",
+        "journal": "Frontiers in Microbiology",
+        "doi": "10.3389/fmicb.2020.626713"
+    },
+    {
+        "year": 2021,
+        "authors": "Eisenhauer N, Buscot F, Heintz-Buschart A, Jurburg SD, ..",
+        "title": "The multidimensionality of soil macroecology",
+        "journal": "Global Ecology and Biogeography",
+        "doi": "10.1111/geb.13211"
+    },
+    {
         "year": 2020,
         "authors": "Jurburg SD, Konzack M, Eisenhauer N, Heintz-Buschart A",
         "title": "The archives are half-empty: a field-wide assessment of the availability of bacterial community sequencing data",
-        "journal": "Current Biology",
+        "journal": "Communications Biology",
         "doi": "10.1038/s42003-020-01204-9"
     },
     {
@@ -78,7 +183,7 @@
     },
     {
         "year": 2020,
-        "authors": "Schreuder J, Velkers F, ... &, Jurburg SD",
+        "authors": "Schreuder J, Velkers F, ..., Jurburg SD",
         "title": "An observational field study of the cloacal microbiota in adult laying hens with and without access to an outdoor range",
         "journal": "BMC Animal Microbiome",
         "doi": "10.1186/s42523-020-00044-6"
@@ -91,22 +196,15 @@
         "doi": "10.1111/geb.13156"
     },
     {
-        "year": 2020,
+        "year": 2021,
         "authors": "Ferlian O, Lintzel EM, ..., Jurburg SD, ..",
         "title": "Nutrient status not secondary metabolites drives herbivory and pathogen infestation across differently mycorrhized tree monocultures and mixtures",
         "journal": "Basic and Applied Ecology",
         "doi": "10.1016/j.baae.2020.09.009"
     },
     {
-        "year": 2020,
-        "authors": "Eisenhauer N, Buscot F, ..., Jurburg SD, ..",
-        "title": "The multidimensionality of soil macroecology",
-        "journal": "Global Ecology and Biogeography",
-        "doi": "10.1111/geb.13211"
-    },
-    {
         "year": 2019,
-        "authors": "Schreuder J, Velkers F, ... &, Jurburg SD",
+        "authors": "Schreuder J, Velkers F, ..., Jurburg SD",
         "title": "Limited changes in the fecal microbiome composition of laying hens after oral inoculation with wild duck feces",
         "journal": "Poultry science",
         "doi": "10.3382/ps/pez526"
